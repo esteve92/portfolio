@@ -23,7 +23,15 @@
 }
 @font-face {
     font-family: moonflower;
-    src: url(Moon Flower.ttf);
+    src: url('moon_flower-webfont.eot');
+    src: url('moon_flower-webfont.eot?#iefix') format('embedded-opentype'),
+         url('moon_flower-webfont.woff') format('woff'),
+         url('moon_flower-webfont.ttf') format('truetype'),
+         url('moon_flower-webfont.svg#moon_flowerregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 }
 #rescontain {
     max-width: 1500px;
