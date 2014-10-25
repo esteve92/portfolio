@@ -6,11 +6,20 @@
 #openhand {
   max-width: 100%;
 }
+
+ul {
+  list-style: none;
+}
 #menuitems {
   position: absolute;
   top: 50%;
   left: 50%;
 }
+
+#menuitems li img {
+    width: 50%;
+}
+
 #rescontain {
   max-width: 1500px;
 }
