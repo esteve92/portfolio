@@ -1,6 +1,9 @@
 #menu {
-    clear: both;
-    position: relative;
+    float: right;
+    width: 50%;
+}
+#openhand {
+    max-width: 100%;
 }
 #menu ul {
     list-style-type: none;
