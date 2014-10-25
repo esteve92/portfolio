@@ -1,1 +1,3 @@
-console.log('bang');
+$document.ready(function() {
+        console.log( "ready!" );
+});
