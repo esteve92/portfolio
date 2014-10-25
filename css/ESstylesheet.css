@@ -1,7 +1,12 @@
+#menu-container {
+  position: absolute;
+  height: 100%;
+}
 #menu {
   position: relative;
   float: right;
   width: 50%;
+  top: 80%;
 }
 #openhand {
   max-width: 100%;

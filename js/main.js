@@ -1,3 +1,7 @@
 $(document).ready(function() {
-        console.log( "ready!" );
+    
+    $('#menu').click(function() {
+        $('#menu').css('top', '20%');
+    });
+
 });
