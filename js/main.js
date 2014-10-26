@@ -1,9 +1,26 @@
 $(document).ready(function() {
-    
-    $('#menu').click(function() {
-        $("#menu").animate({'top': ['20%', 'easeOutExpo']}, {
-            duration: 700
-        });
-    });
+    // mobile
+    //// click to expand menu
+    //$('#menu-container #menu').click(function(event) {
+    //    event.stopPropagation();
+    //    $("#menu").addClass('expanded');
+    //});
+
+    //// click to close menu
+    //$('#menu-container').click(function() {
+    //    $("#menu").removeClass('expanded');
+    //});
+
+    // hover on menu
+    $('#menu-container #menu').hover(
+        // on hover
+        function() {
+            $(this).addClass('expanded');
+        },
+        // on hover leave
+        function() {
+            $(this).removeClass('expanded');
+        }
+    );
 
 });

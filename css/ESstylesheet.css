@@ -7,6 +7,11 @@
   float: right;
   width: 35%;
   top: 80%;
+  transition: 0.7s ease-in;
+}
+.expanded {
+  top: 20% !important;
+  transition: 0.7s ease-in;
 }
 #openhand {
   max-width: 100%;
