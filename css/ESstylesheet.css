@@ -63,9 +63,12 @@ ul {
   height: auto;
   width: auto\9; /* ie8 */
 }
-
 @media only screen and (max-device-width: 480px) {
   #menu {
-    width: 100% !important;
+    position: relative;
+    float: right;
+    width: 100%;
+    top: 80%;
+    transition: 0.7s ease-in;
   }
 }
