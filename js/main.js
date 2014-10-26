@@ -1,7 +1,9 @@
 $(document).ready(function() {
     
     $('#menu').click(function() {
-        $('#menu').css('top', '20%');
+        $("#menu").animate({'top': ['20%', 'easeOutExpo']}, {
+            duration: 700
+        });
     });
 
 });
