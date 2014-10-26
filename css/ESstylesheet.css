@@ -1,3 +1,13 @@
+@media only screen and (max-device-width: 480px) {
+  #menu {
+    position: relative;
+    float: right;
+    width: 35%;
+    top: 80%;
+    transition: 0.7s ease-in;
+  }
+}
+
 #menu-container {
   position: absolute;
   height: 100%;
@@ -28,7 +38,7 @@ ul {
 }
 
 #menuitems li img {
-    width: 50%;
+  width: 50%;
 }
 
 #rescontain {
