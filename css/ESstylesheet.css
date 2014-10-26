@@ -28,7 +28,7 @@ ul {
 }
 
 #menuitems li img {
-    width: 50%;
+  width: 50%;
 }
 
 #rescontain {
@@ -64,4 +64,8 @@ ul {
   width: auto\9; /* ie8 */
 }
 
-
+@media only screen and (max-device-width: 480px) {
+  #menu {
+    width: 100% !important;
+  }
+}
