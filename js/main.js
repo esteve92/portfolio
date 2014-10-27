@@ -1,5 +1,10 @@
 $(document).ready(function() {
 
+
+    if (top.location.pathname.substring(location.pathname.lastIndexOf("/") + 1) === 'projects.html') {
+        $('.least-gallery').least();
+    }
+
     // check for mobile
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
         // click to expand menu
@@ -15,15 +20,15 @@ $(document).ready(function() {
     } else { 
         // hover on menu
         $('#menu-container #menu').hover(
-            // on hover
-            function() {
-                $(this).addClass('expanded');
-            },
-            // on hover leave
-            function() {
-                $(this).removeClass('expanded');
-            }
-        );
+                // on hover
+                function() {
+                    $(this).addClass('expanded');
+                },
+                // on hover leave
+                function() {
+                    $(this).removeClass('expanded');
+                }
+                );
     }
 
 });
