@@ -1,6 +1,5 @@
 $(document).ready(function() {
 
-
     if (top.location.pathname.substring(location.pathname.lastIndexOf("/") + 1) === 'projects.html') {
         $('.least-gallery').least();
     }
@@ -17,18 +16,13 @@ $(document).ready(function() {
         $('#menu-container').click(function() {
             $("#menu").removeClass('expanded');
         });
-    } else { 
+    } else {
+        //$('#menu-container').height($(document).height());
+        //$(document).on('resize', $('#menu-container').height($(document).height()));
         // hover on menu
-        $('#menu-container #menu').hover(
-                // on hover
-                function() {
-                    $(this).addClass('expanded');
-                },
-                // on hover leave
-                function() {
-                    $(this).removeClass('expanded');
-                }
-                );
+        $('#menu-container #menu').removeClass('invisible')
+                                  .hover(function() {$(this).addClass('expanded');},
+                                         function() {$(this).removeClass('expanded');});
     }
 
 });
