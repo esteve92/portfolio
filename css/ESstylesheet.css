@@ -22,12 +22,13 @@ header {
   position: relative;
   float: right;
   width: 35%;
+  max-width: 350px;
   top: 100%;
   transition: 0.7s ease-in;
   top: 80%;
 }
 .expanded {
-  top: 60%;
+  top: 30% !important;
   transition: 0.7s ease-in;
 }
 #openhand {
