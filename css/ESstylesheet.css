@@ -5,6 +5,32 @@
 header {
   height: 20%;
 }
+#eye {
+  background: url('../img/eyemovies.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 200px;
+  width: 200px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+#eye:hover {
+  background: url('../img/eyemovies.gif');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 200px;
+  width: 200px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
 #least {
   z-index: 10;
 }
