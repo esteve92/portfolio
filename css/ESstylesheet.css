@@ -77,7 +77,8 @@ ul {
 }
 
 #rescontain {
-  max-width: 1500px;
+  width: 70%;
+  margin: auto;
 }
 #resume {
   display: block;
