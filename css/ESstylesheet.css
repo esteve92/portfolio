@@ -53,6 +53,7 @@ header {
   top: 100%;
   transition: 0.7s ease-in;
   top: 80%;
+  padding: 20px;
 }
 .expanded {
   top: 30% !important;
@@ -67,7 +68,7 @@ ul {
 }
 #menuitems {
   position: absolute;
-  top: 45%;
+  top: 5%;
   left: 50%;
   width: 45%;
 }
