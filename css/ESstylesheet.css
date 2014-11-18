@@ -79,6 +79,7 @@ ul {
 #rescontain {
   width: 70%;
   margin: auto;
+  float: left;
 }
 #resume {
   display: block;
