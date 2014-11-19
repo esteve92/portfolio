@@ -5,6 +5,15 @@
 header {
   height: 20%;
 }
+#download-button {
+  border: 0;
+  background: transparent;
+}
+#download-button img {
+  width: 90px;
+  height: 90px;
+  padding: 20px;
+}
 #eye {
   background: url('../img/eyemovies.jpg');
   background-repeat: no-repeat;
