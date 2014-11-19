@@ -82,6 +82,10 @@ ul {
   width: 45%;
 }
 
+#menuitems ul {
+  padding-left: 40px;
+}
+
 #menuitems li img {
   width: 50%;
 }
