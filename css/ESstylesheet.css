@@ -32,12 +32,9 @@ header {
   bottom: 0;
   left: 0;
 }
-#least {
-  z-index: 10;
-}
 #menu-container {
   overflow: hidden;
-  position: absolute;
+  position: fixed;
   float: right;
   top: 0px;
   height: 80%;
@@ -58,6 +55,9 @@ header {
 .expanded {
   top: 30% !important;
   transition: 0.7s ease-in;
+}
+.forefront {
+  z-index: 10;
 }
 #openhand {
   max-width: 100%;
@@ -81,6 +81,9 @@ ul {
   width: 70%;
   margin: auto;
   float: left;
+}
+#download-button {
+  float: right;
 }
 #resume {
   display: block;
