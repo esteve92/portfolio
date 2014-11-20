@@ -136,4 +136,15 @@ ul {
     top: 80%;
     transition: 0.3s ease-in;
   }
+  #download-button {
+      padding: 20px;
 }
+  #email {
+      margin-left: auto;
+      margin-right: auto;
+      width: 400px;
+  }
+  #social {
+      max-height: 100px;
+      max-width: 100px;
+  }
