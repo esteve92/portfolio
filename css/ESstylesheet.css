@@ -144,7 +144,12 @@ ul {
       margin-right: auto;
       width: 400px;
   }
-  #social {
-      max-height: 100px;
-      max-width: 100px;
+  #instagram {
+      float: left;
+  }
+  #twitter {
+      float:inherit;
+  }
+  #linkedin {
+      float: right;
   }
