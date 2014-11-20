@@ -118,6 +118,7 @@ ul {
 }
 #minimaldesc {
   font-family: moonflower;
+  padding: 20px;
   float: right;
   clear: left;
   display: block;
