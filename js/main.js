@@ -19,8 +19,8 @@ $(document).ready(function() {
         //$(document).on('resize', $('#menu-container').height($(document).height()));
         // hover on menu
         $('#menu-container #menu').removeClass('invisible')
-                                  .hover(function() {$(this).addClass('expanded'); $('#least').removeClass('forefront')},
-                                         function() {$(this).removeClass('expanded'); $('#least').addClass('forefront')});
+                                  .hover(function() {$(this).addClass('expanded');},
+                                         function() {$(this).removeClass('expanded');});
     }
 
 });
