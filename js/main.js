@@ -1,9 +1,5 @@
 $(document).ready(function() {
 
-    if (top.location.pathname.substring(location.pathname.lastIndexOf("/") + 1) === 'projects.html') {
-        $('.least-gallery').least();
-    }
-
     // check for mobile
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
         // click to expand menu
