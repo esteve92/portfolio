@@ -2,7 +2,7 @@
 a {text-decoration: none}
 
 .invisible {
-  opacity: 0; 
+  opacity: 0;
   transition: opacity 0.3s ease-in;
 }
 header {
@@ -199,7 +199,7 @@ ul {
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 
 @media only screen and (max-width: 480px) {
-  .col { 
+  .col {
     margin: 1% 0 1% 0%;
   }
 }
