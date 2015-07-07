@@ -1,5 +1,7 @@
 @font-face { font-family: El Capitan; src: url('El_Capitan.otf'); }
-a {text-decoration: none}
+a {text-decoration: none;
+   color: black;
+}
 
 .invisible {
   opacity: 0;
