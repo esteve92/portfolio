@@ -1,8 +1,12 @@
 @font-face { font-family: El Capitan; src: url('El_Capitan.otf'); }
+@font-face { font-family: Raleway Light; src: url('Raleway-Light.otf'); }
+
 a {text-decoration: none;
    color: black;
 }
-
+button {text-decoration: none;
+   color: black;
+}
 .invisible {
   opacity: 0;
   transition: opacity 0.3s ease-in;
@@ -13,11 +17,7 @@ header {
 #download-button {
   border: 0;
   background: transparent;
-}
-#download-button img {
-  width: 90px;
-  height: 90px;
-  padding: 20px;
+  font-family: El Capitan, sans-serif;
 }
 #eye {
   background-image: url('../img/eyemovies.gif');
@@ -96,8 +96,10 @@ ul {
   padding-left: 40px;
 }
 
-#menuitems li img {
-  width: 50%;
+#menuitems li {
+  width: 70%;
+  padding-bottom: 20px;
+  font-size: 1vw;
 }
 #rescontain {
   width: 70%;
@@ -106,6 +108,9 @@ ul {
 }
 #download-button {
   float: right;
+  font-size: 4vw;
+  position: absolute;
+  right: 0;
 }
 #resume {
   display: block;
@@ -117,16 +122,19 @@ ul {
 }
 #minimalanimal {
   float: left;
-  clear: right;
   display: block;
   margin-left: 50px;
   margin-right: auto;
   max-width: 500px;
+  max-height: 500px;
   height: auto;
   width: auto\9; /* ie8 */
 }
 #minimaldesc {
-  font-family: moonflower;
+  font-family: Raleway Light, sans-serif;
+  font-size; 4vw;
+  position:absolute;
+  right: 0;
   padding: 20px;
   float: right;
   clear: left;
