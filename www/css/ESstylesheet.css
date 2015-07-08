@@ -1,4 +1,4 @@
-@font-face { font-family: El Capitan; src: url('El_Capitan.otf'); }
+@font-face { font-family: Mars Attacks; src: url('Mars Attacks.otf'); }
 @font-face { font-family: Raleway Light; src: url('Raleway-Light.otf'); }
 
 a {text-decoration: none;
@@ -17,7 +17,7 @@ header {
 #download-button {
   border: 0;
   background: transparent;
-  font-family: El Capitan, sans-serif;
+  font-family: Mars Attacks, sans-serif;
 }
 #eye {
   background-image: url('../img/eyemovies.gif');
@@ -61,12 +61,13 @@ header {
 }
 #sticky-menu ul li {
   display: inline-block;
-  font-family: El Capitan, sans-serif;
+  font-family: Mars Attacks, sans-serif;
+  font-size: 4vw;
   float: left;
   width: 25%;
   text-align: center;
   vertical-align: middle;
-  padding-top: 15px;
+  padding-top: 10px;
 }
 #homeeye {
   max-width: 20%;
@@ -116,7 +117,7 @@ ul {
   top: 5%;
   left: 50%;
   width: 45%;
-  font-family: El Capitan, sans-serif;
+  font-family: Mars Attacks, sans-serif;
   color: black;
 }
 
@@ -126,8 +127,9 @@ ul {
 
 #menuitems li {
   width: 70%;
-  padding-bottom: 20px;
-  font-size: 1vw;
+  padding-bottom: 10px;
+  font-size: 3vw;
+  float: left;
 }
 #rescontain {
   width: 70%;
@@ -136,7 +138,7 @@ ul {
 }
 #download-button {
   float: right;
-  font-size: 4vw;
+  font-size: 7vw;
   position: absolute;
   right: 0;
 }
