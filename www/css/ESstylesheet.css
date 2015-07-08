@@ -201,6 +201,21 @@ ul {
 #linkedin {
   float: right;
 }
+#manhattan {
+  text-align: center;
+  font-family: Raleway Light, sans-serif;
+  padding-top: 80px;
+}
+#manhattan img {
+  height: auto;
+  display: block;
+  margin: auto;
+  max-width: 50%;
+}
+#manhattan p {
+    max-width: 70%;
+    display: inline-block;
+}
 
 /*  SECTIONS  */
 .section {
