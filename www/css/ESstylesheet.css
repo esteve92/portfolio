@@ -211,6 +211,7 @@ ul {
   display: block;
   margin: auto;
   max-width: 50%;
+  padding-top: 20px;
 }
 #manhattan p {
     max-width: 70%;
