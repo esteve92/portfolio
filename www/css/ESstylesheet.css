@@ -32,6 +32,15 @@ header {
   background: transparent;
   font-family: Mars Attacks, sans-serif;
 }
+#diy {
+    font-family: Mars Attacks, sans-serif;
+    float: right;
+    font-size: 7vw;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding-left: 30px;
+}
 #eye {
   background-image: url('../img/eyemovies.gif');
   background-repeat: no-repeat;
