@@ -164,6 +164,13 @@ ul {
   font-size: 7vw;
   position: absolute;
   right: 0;
+  cursor: pointer;
+  cursor: hand;
+  padding-right: 30px;
+}
+#download-button:hover {
+    background: black;
+    color: #32CD32;
 }
 #resume {
   display: block;
