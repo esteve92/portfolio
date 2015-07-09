@@ -137,9 +137,10 @@ ul {
 #menuitems {
   position: absolute;
   top: 5%;
-  left: 50%;
+  left: 0;
   width: 45%;
   font-family: Mars Attacks, sans-serif;
+  text-align: center;
   color: black;
 }
 
