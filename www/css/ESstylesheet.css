@@ -7,6 +7,10 @@ a {text-decoration: none;
 button {text-decoration: none;
    color: black;
 }
+.center {
+    max-width: 80%;
+    margin: auto;
+}
 .invisible {
   opacity: 0;
   transition: opacity 0.3s ease-in;
@@ -85,7 +89,7 @@ header {
   padding-bottom: 5px;
 }
 #top-row {
-  padding-top: 60px;
+  padding-top: 100px;
 }
 #menu-container {
   overflow: hidden;
