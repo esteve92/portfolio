@@ -14,6 +14,15 @@ button {text-decoration: none;
 header {
   height: 20%;
 }
+.hoverswap img:last-child {
+    display:none;
+}
+.hoverswap:hover img:first-child {
+    display: none;
+}
+.hoverswap:hover img:last-child {
+    display: inline-block;
+}
 #download-button {
   border: 0;
   background: transparent;
