@@ -142,6 +142,7 @@ ul {
   font-family: Mars Attacks, sans-serif;
   text-align: center;
   color: black;
+  white-space: nowrap;
 }
 
 #menuitems ul {
@@ -221,6 +222,8 @@ ul {
   margin-left: auto;
   margin-right: auto;
   width: 400px;
+  font-family: Mars Attacks, sans-serif;
+  font-size: 5vw;
 }
 #instagram {
   float: left;
