@@ -29,7 +29,7 @@ header {
   display: none;
 }
 .hoverswap:hover img:last-child {
-  display: inline-block;
+  display: block;
 }
 #download-button {
   border: 0;
