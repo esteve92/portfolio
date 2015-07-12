@@ -60,7 +60,7 @@ header {
   z-index: 9;
 }
 #contact-container {
-  width: 50%;
+  width: 400px;
   height: 30%;
   margin: auto;
   position: absolute;
@@ -225,9 +225,10 @@ ul {
 #email {
   margin-left: auto;
   margin-right: auto;
-  width: 400px;
+  width: 100%;
+  font-size: 4em;
   font-family: Mars Attacks, sans-serif;
-  font-size: 5vw;
+  white-space: nowrap;
 }
 #instagram {
   float: left;
@@ -248,7 +249,7 @@ ul {
   display: block;
   margin: auto;
   max-width: 50%;
-  padding-top: 20px;
+  padding-top: 60px;
 }
 #manhattan p {
   max-width: 70%;
