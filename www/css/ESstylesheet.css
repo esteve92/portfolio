@@ -189,26 +189,16 @@ ul {
   float: left;
   display: block;
   margin-left: 50px;
-  margin-right: auto;
-  max-width: 500px;
-  max-height: 500px;
-  height: auto;
-  width: auto\9; /* ie8 */
+  max-width: 30%;
+  max-height: 30%;
 }
 #minimaldesc {
   font-family: Raleway Light, sans-serif;
   font-size; 4vw;
   position:absolute;
-  right: 0;
   padding: 20px;
-  float: right;
-  clear: left;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  display: inline-block;
   max-width: 500px;
-  height: auto;
-  width: auto\9; /* ie8 */
 }
 @media only screen and (max-device-width: 480px) {
   #menu {
@@ -264,7 +254,8 @@ ul {
   font-size: 5vw;
   text-align: center;
 }
-
+#projtext a {
+}
 
 /*  SECTIONS  */
 .section {
