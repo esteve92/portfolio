@@ -1,6 +1,10 @@
 @font-face { font-family: Mars Attacks; src: url('Mars Attacks.ttf'); }
 @font-face { font-family: Raleway Light; src: url('Raleway-Light.otf'); }
 
+body {
+  margin: 0px;
+}
+
 a {text-decoration: none;
   color: black;
 }
