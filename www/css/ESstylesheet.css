@@ -70,6 +70,7 @@ header {
   left: 0;
   text-align: center;
   z-index: 50;
+  padding-top: 5%;
 }
 .contactinfo {
   padding: 5px;
