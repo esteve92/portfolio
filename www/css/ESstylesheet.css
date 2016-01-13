@@ -61,7 +61,7 @@ header {
 }
 #contact-container {
   width: 400px;
-  height: 30%;
+  height: 100%;
   margin: auto;
   position: absolute;
   top: 0;
@@ -74,6 +74,11 @@ header {
 .contactinfo {
   padding: 5px;
   display: inline;
+}
+#cowgirl {
+}
+#cowgirlerin {
+    width: 100%;
 }
 #sticky-container {
   margin: 0 0 0 0;
