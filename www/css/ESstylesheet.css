@@ -93,6 +93,7 @@ header {
   position: fixed;
   z-index: 10;
   background-color: white;
+  padding-bottom: 20px;
 }
 #sticky-menu ul li {
   display: inline-block;
