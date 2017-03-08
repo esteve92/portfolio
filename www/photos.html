@@ -5,42 +5,52 @@
 		    <title>Photos & Stuff</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.4.5/galleria.min.js"></script>
+            <style>
+                .galleria{ width: 800px; height: 800px; background: #000; align-content: center; }
+            </style>
     </head>
     <body>
+        <!-- menu -->
+        <div id="sticky-container">
+              <div id="sticky-menu">
+                  <ul>
+                    <li><a href="index"><img id="homeeye" src="img/eyemovies.gif"></a></li>
+                    <li><a href="resume">RESUME</a></li>
+                    <li><a href="mnmlanml">MNML ANML</a></li>
+                    <li><a href="contact">CONTACT</a></li>
+                  </ul>
+              </div>
+        </div>
         <div id= "minimaldesc">
             <p>Here is a mix of some personal and promotional pictures I've taken.</p>
         </div>
+    <div id="gallery-container">
         <div class="galleria">
-            <img src="photo1.jpg">
-            <img src="photo2.jpg">
-            <img src="photo3.jpg">
-        </div>
-        <script>
+            <img src="img/SAM_0889-01.jpeg">
+            <img src="img/SAM_1274-01.jpeg">
+            <img src="img/IMG_20170228_163546_410.jpg">
+            <img src="img/SAM_0242-01.jpeg">
+            <img src="img/SAM_0273-01.jpeg">
+            <img src="img/SAM_0539-01-01.jpeg">
+            <img src="img/SAM_0544-01.jpeg">
+            <img src="img/SAM_0817-01.jpeg">
+            <img src="img/SAM_1172-02-01.jpeg">
+            <img src="img/SAM_1451-01.jpeg">
+            <img src="img/SAM_0279-01.jpeg">
+            <script>
 	(function() {
             Galleria.loadTheme('https://cdnjs.cloudflare.com/ajax/libs/galleria/1.4.5/themes/classic/galleria.classic.min.js');
             Galleria.run('.galleria');
         }());
         </script>
-    <!-- menu -->
-    <div id="menu-container">
-      <div id="menu" class="invisble">
-        <img id= "openhand" src="img/hand2.png"/>
-        <div id="menuitems">
-          <ul>
-            <li><a href="index">HOME</li>
-            <li><a href="projects">WORK</li>
-            <li><a href="resume">RESUME</li>
-            <li><a href="contact">CONTACT</li>
-          </ul>
         </div>
-      </div>
     </div>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <!--<script>window.jQuery || document.write('<script src="js/jquery-1.11.1.min.js"><\/script>')</script>-->
-    <script>window.jQuery || document.write('<script src="js/jquery-1.11.1.js"><\/script>')</script>
-    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
-    <script>window.jQuery.ui || document.write('<script src="js/jquery-ui.js"><\/script>')</script>
-    <script src="js/main.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <!--<script>window.jQuery || document.write('<script src="js/jquery-1.11.1.min.js"><\/script>')</script>-->
+        <script>window.jQuery || document.write('<script src="js/jquery-1.11.1.js"><\/script>')</script>
+        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+        <script>window.jQuery.ui || document.write('<script src="js/jquery-ui.js"><\/script>')</script>
+        <script src="js/main.js"></script>
     </body>
 </html>
 

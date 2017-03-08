@@ -81,6 +81,10 @@ header {
 #cowgirlerin {
     width: 100%;
 }
+#gallery-container {
+    display: inline-block;
+    padding-top: 50px;
+}
 #sticky-container {
   margin: 0 0 0 0;
   width: 100%;
