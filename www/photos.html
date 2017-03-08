@@ -3,11 +3,24 @@
     <head>
 	   <link type="text/css" rel="stylesheet" href="css/ESstylesheet.css" />
 		    <title>Photos & Stuff</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.4.5/galleria.min.js"></script>
     </head>
     <body>
         <div id= "minimaldesc">
             <p>Here is a mix of some personal and promotional pictures I've taken.</p>
         </div>
+        <div class="galleria">
+            <img src="photo1.jpg">
+            <img src="photo2.jpg">
+            <img src="photo3.jpg">
+        </div>
+        <script>
+	(function() {
+            Galleria.loadTheme('https://cdnjs.cloudflare.com/ajax/libs/galleria/1.4.5/themes/classic/galleria.classic.min.js');
+            Galleria.run('.galleria');
+        }());
+        </script>
     <!-- menu -->
     <div id="menu-container">
       <div id="menu" class="invisble">
