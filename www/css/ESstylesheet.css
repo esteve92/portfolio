@@ -1,6 +1,3 @@
-me@font-face { font-family: Mars Attacks; src: url('Mars Attacks.ttf'); }
-@font-face { font-family: Raleway Light; src: url('Raleway-Light.otf'); }
-
 body {
   margin: 0px;
 }
@@ -85,26 +82,6 @@ header {
     padding-top: 100px;
     clear:both;
 }
-#sticky-container {
-  margin: 0 0 0 0;
-  width: 100%;
-  height: 6vw;
-  overflow: hidden;
-  position: fixed;
-  z-index: 10;
-  background-color: white;
-  padding-bottom: 20px;
-}
-#sticky-menu ul li {
-  display: inline-block;
-  font-family: Mars Attacks, sans-serif;
-  font-size: 4vw;
-  float: left;
-  width: 25%;
-  text-align: center;
-  vertical-align: middle;
-  padding-top: 10px;
-}
 #spacer {
     width: 100%;
     height: 95px;
@@ -149,31 +126,6 @@ header {
 #openhand {
   max-width: 100%;
 }
-
-ul {
-  list-style: none;
-}
-#menuitems {
-  position: absolute;
-  top: 5%;
-  left: 0;
-  width: 45%;
-  font-family: Mars Attacks, sans-serif;
-  text-align: center;
-  color: black;
-  white-space: nowrap;
-}
-
-#menuitems ul {
-  padding-left: 40px;
-}
-
-#menuitems li {
-  width: 70%;
-  padding-bottom: 10px;
-  font-size: 3vw;
-  float: left;
-}
 #rescontain {
   width: 70%;
   margin: auto;
@@ -199,30 +151,6 @@ ul {
   max-width: 100%;
   max-height: 90%;
   width: auto\9; /* ie8 */
-}
-#minimalanimal {
-  float: left;
-  display: block;
-  margin-left: 50px;
-  max-width: 30%;
-  max-height: 30%;
-}
-#minimaldesc {
-  font-family: Raleway Light, sans-serif;
-  font-size; 4vw;
-  position:absolute;
-  padding: 20px;
-  display: inline-block;
-  max-width: 500px;
-}
-@media only screen and (max-device-width: 480px) {
-  #menu {
-    position: relative;
-    float: right;
-    width: 100%;
-    top: 80%;
-    transition: 0.3s ease-in;
-  }
 }
 #download-button {
   padding: 20px;
